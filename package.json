@@ -1,0 +1,33 @@
+{
+  "name": "toy-problems",
+  "version": "1.0.0",
+  "description": "Track the algorithms I am working on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwalter215/toy-problems.git"
+  },
+  "author": "Ryan Walter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwalter215/toy-problems/issues"
+  },
+  "homepage": "https://github.com/rwalter215/toy-problems#readme",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}
