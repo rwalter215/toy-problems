@@ -8,7 +8,7 @@ function semiPrime(number) {
   for (let i = 2; i < number; i++) {
     if ((number % i === 0) && isPrime(i)) {
       if (isPrime(number / i)) {
-        return [i, (number / i)]
+        return [i, (number / i)];
       }
     }
   }
